@@ -1,0 +1,43 @@
+table{
+    border-spacing: 0;
+    border: 1px solid black;
+}
+
+td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+tr:nth-child(2n){
+    background: rgba(25, 0, 255, 0.178);
+}
+
+.active{
+    background-color: rgba(61, 51, 146, 0.418);
+    cursor: pointer;
+}
+
+td:hover::before {
+    content: ''; 
+    background: rgba(61, 51, 146, 0.418); 
+    height: 2000px;
+    width: 100%;
+  }
+
+  td {
+    position: relative;
+  }
+  td:hover::before {
+    position: absolute;
+    left: 0;
+    top: -1000px;
+    z-index: -1;
+  }
+  table {
+    overflow: hidden; 
+  }

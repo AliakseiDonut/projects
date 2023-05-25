@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    padding: 20px 20px;
+}
+table{
+    border-spacing: 0;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+    width: 80px;
+    height: 80px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+td:hover{
+    background-color: #4642424c;
+    cursor: pointer;
+}
+
+.active{
+    background-color: #4642427e;
+}
+
+.input{
+    padding: 20px 20px;
+    border: 0;
+}
