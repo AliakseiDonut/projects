@@ -1,0 +1,64 @@
+caption {
+    text-align: right;
+}
+
+thead {
+    background: #3399ff;
+}
+
+tbody {
+    background-color: #fff;
+    color: #000;
+}
+
+tbody tr td:nth-child(2n+1) {
+    text-align: center;
+}
+
+tbody tr td:nth-child(2n) {
+    text-align: left;
+}
+
+table {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 110%;
+    margin-top: 2%;
+}
+
+tbody tr td:nth-child(1) {
+    width: 10%;
+}
+
+tbody tr td:nth-child(2) {
+    width: 40%;
+}
+
+tbody tr td:nth-child(3) {
+    width: 15%;
+}
+
+tbody tr td:nth-child(4) {
+    width: 35%;
+}
+
+tfoot {
+    background-color: #003399;
+    color: #fff;
+}
+
+td {
+    padding: 1%;
+}
+
+tbody tr:nth-child(7n) {
+    background-color: #CCCCCC;
+}
+
+tbody tr:nth-child(7n) td:nth-child(2) {
+    color: #990000;
+}
+
+tbody tr:nth-child(7n) td:nth-child(3) {
+    color: #990000;
+}
