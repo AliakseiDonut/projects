@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto&display=swap" rel="stylesheet">
+    <title>Form</title>
+</head>
+<body>
+    <header>
+        <h1>Форма с UI элементами</h1>
+    </header>
+   <div id="cont">
+    <h2 class="blockh">Radio</h2>
+    <div id="radio" class="block">
+        <div>
+            <input type="radio" name="rad" id="firstr">
+            <label for="firstr">Первый</label>
+        </div>
+        <input type="radio" name="rad" id="secondr" checked>
+        <label for="secondr">Второй</label>
+    </div>
+    <h2 class="blockh">Frame</h2>
+    <div id="frame" class="block">
+        <img class = "logo" src="IMG/logo.png" alt="">
+        <input type="search">
+        <button>Ок</button>
+    </div>
+    <h2 class="blockh">Checkbox</h2> 
+    <div id="checkbox" class="block">
+        <div>
+            <input type="checkbox" name="chk" id="firstc" checked>
+            <label for="firstc">Первый</label>
+        </div>
+        <div>    
+            <input type="checkbox" name="chk" id="secondc">
+            <label for="secondc">Второй</label>
+        </div>
+        <input type="checkbox" name="chk" id="thirdc">
+        <label for="thirdc">Третий</label>
+    </div>
+    <h2 class="blockh">Listbox</h2>
+    <div id="listbox" class="block">
+        <select name="listbox" size="3" id="lstbox">  
+            <option> Первый </option>  
+            <option> Второй </option>  
+            <option> Третий </option>  
+          </select>  
+    </div>
+    <h2 class="blockh">Combobox</h2>
+    <div id="combobox" class="block">
+        <select name="" id="cmbbox">
+            <option> Первый </option>  
+            <option> Второй </option>  
+            <option> Третий </option>  
+        </select>
+    </div>
+    <h2 class="blockh">Range</h2>
+    <div id="range" class="block">
+        <input type="range">
+    </div>
+    <h2 class="blockh">Counter</h2>
+    <div id="number" class="block">
+        <input type="number" value="2">
+    </div>
+    </div>
+    <div id="buttons">
+        <button>Ок</button>
+        <button>Отмена</button>
+    </div>
+</body>
+</html>
